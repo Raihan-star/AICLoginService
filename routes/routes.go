@@ -18,7 +18,7 @@ func Init() *echo.Echo {
 	//e.PUT("/put_openjob", controllers.UpdateOpenjob)
 	//e.DELETE("/delete_openjob", controllers.DeleteOpenjob)
 	e.GET("/generate-hash/:password", controllers.GenerateHashPassword)
-	e.POST("/openjob/login", controllers.CheckLogin)
+	e.POST("/AICLoginSevice/login", controllers.CheckLogin)
 
 	return e
 
